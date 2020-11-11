@@ -17,17 +17,17 @@ namespace AddressBookFileStream
         }
         public static void SelectChoice()
         {
-            CsvReadWrite csv = new CsvReadWrite();            
+            JsonReadWrite json = new JsonReadWrite();         
             Console.WriteLine("Select from the following options:");
             Console.WriteLine("1. Read file\n2. Write into the file");
             int choice = Convert.ToInt32(Console.ReadLine());
             switch (choice)
             {
                 case 1:
-                    csv.CSVDataReading();
+                    json.JsonReadData();
                     break;
                 case 2:
-                    csv.CSVDataWriting();
+                    json.JSonWriteData();
                     break;                    
                 default:
                     Console.WriteLine("Enter valid choice");
