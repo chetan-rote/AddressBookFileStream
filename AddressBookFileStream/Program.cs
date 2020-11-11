@@ -17,17 +17,17 @@ namespace AddressBookFileStream
         }
         public static void SelectChoice()
         {
-            TextFileStream file = new TextFileStream();            
+            CsvReadWrite csv = new CsvReadWrite();            
             Console.WriteLine("Select from the following options:");
             Console.WriteLine("1. Read file\n2. Write into the file");
             int choice = Convert.ToInt32(Console.ReadLine());
             switch (choice)
             {
                 case 1:
-                    file.ReadFile();
+                    csv.CSVDataReading();
                     break;
                 case 2:
-                    file.EnterData();
+                    csv.CSVDataWriting();
                     break;                    
                 default:
                     Console.WriteLine("Enter valid choice");
