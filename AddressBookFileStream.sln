@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBookFileStream", "AddressBookFileStream\AddressBookFileStream.csproj", "{42049E62-486F-40FA-BF47-D3BD90E9C096}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42049E62-486F-40FA-BF47-D3BD90E9C096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42049E62-486F-40FA-BF47-D3BD90E9C096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42049E62-486F-40FA-BF47-D3BD90E9C096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42049E62-486F-40FA-BF47-D3BD90E9C096}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22180C6A-A100-404A-B123-318BC86CADF3}
+	EndGlobalSection
+EndGlobal
